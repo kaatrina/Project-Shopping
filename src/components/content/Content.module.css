@@ -63,7 +63,7 @@ ul {
 
 .secondBlock {
   grid-area: 2 / 1 / -1 / 2;
-  background-image: url("public/secondBlock.jpg");
+  background-image: url("/secondBlock.jpg");
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -73,7 +73,7 @@ ul {
 
 .thirdBlock {
   grid-area: 2 / 2 / -1 / -1;
-  background-image: url("public/thirdBlock.jpg");
+  background-image: url("/thirdBlock.jpg");
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -81,12 +81,13 @@ ul {
   padding: 30px 20px;
 }
 
-.content button {
+.button {
   font-size: 17px;
   border: none;
   background-color: white;
   margin-bottom: 70px;
   padding: 0;
+  align-self: start;
 
 }
 

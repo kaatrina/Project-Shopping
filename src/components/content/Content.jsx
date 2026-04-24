@@ -1,7 +1,9 @@
 import styles from "./Content.module.css";
-import { Link } from "react-router-dom";
+import { useNavigate } from 'react-router-dom';
 
 function Content() {
+
+  const navigate = useNavigate();
   return (
     <div className={styles.content}>
       <div className={styles.pic}>
@@ -9,9 +11,10 @@ function Content() {
           Пространство, в котором качество, стиль и безупречный сервис перестают
           быть компромиссом.
         </h1>
-        <Link to="/store">
-          <button>Перейти к покупкам →</button>
-        </Link>
+        <button
+          onClick={() => navigate("/store")} className={styles.button}>
+          Перейти к покупкам →
+        </button>
         <p>
           Мы объединили под одной крышей самые яркие и значимые имена в мире
           моды — от признанной классики до авангарда.
@@ -26,7 +29,7 @@ function Content() {
       <div className={styles.about}>
         <div className={styles.firstBlock}>
           <video autoPlay loop muted playsInline>
-            <source src="public/video.mp4" type="video/mp4" />
+            <source src="/video.mp4" type="video/mp4" />
           </video>
           <h2>BASE STORE</h2>
         </div>
