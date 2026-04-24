@@ -63,7 +63,7 @@ ul {
 
 .secondBlock {
   grid-area: 2 / 1 / -1 / 2;
-  background-image: url("src/assets/secondBlock.jpg");
+  background-image: url("public/secondBlock.jpg");
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -73,7 +73,7 @@ ul {
 
 .thirdBlock {
   grid-area: 2 / 2 / -1 / -1;
-  background-image: url("src/assets/thirdBlock.jpg");
+  background-image: url("public/thirdBlock.jpg");
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -86,6 +86,8 @@ ul {
   border: none;
   background-color: white;
   margin-bottom: 70px;
+  padding: 0;
+
 }
 
 .content button:hover {

@@ -26,7 +26,7 @@ function Content() {
       <div className={styles.about}>
         <div className={styles.firstBlock}>
           <video autoPlay loop muted playsInline>
-            <source src="src/assets/video.mp4" type="video/mp4" />
+            <source src="public/video.mp4" type="video/mp4" />
           </video>
           <h2>BASE STORE</h2>
         </div>
