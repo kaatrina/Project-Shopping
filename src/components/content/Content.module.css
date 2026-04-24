@@ -1,0 +1,139 @@
+.content {
+  display: grid;
+  grid-template-columns: 7fr 8fr;
+  height: 500px;
+  gap: 40px;
+  margin-top: 40px;
+}
+
+.pic {
+  grid-area: 1 / 1 / 2 / 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 30px;
+}
+
+ul {
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+}
+
+.content h1 {
+  margin: 0;
+  line-height: 0.7;
+}
+
+.about {
+  grid-area: 1 / 2 / 2 / 3;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 3fr 2fr;
+  gap: 10px;
+}
+
+.about div {
+  border-radius: 30px;
+}
+
+.firstBlock {
+  grid-area: 1 / 1 / 2 / -1;
+  background-size: cover;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  padding: 50px 50px 30px 30px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 30px;
+}
+
+.firstBlock video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+
+.secondBlock {
+  grid-area: 2 / 1 / -1 / 2;
+  background-image: url("src/assets/secondBlock.jpg");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 30px 20px;
+}
+
+.thirdBlock {
+  grid-area: 2 / 2 / -1 / -1;
+  background-image: url("src/assets/thirdBlock.jpg");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 30px 20px;
+}
+
+.content button {
+  font-size: 17px;
+  border: none;
+  background-color: white;
+  margin-bottom: 70px;
+}
+
+.content button:hover {
+  transform: scale(1.02);
+  cursor: pointer;
+}
+
+.content p {
+  margin-top: 60px;
+  color: black;
+  line-height: 0.9;
+}
+
+.firstBlock h2 {
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  position: relative;
+  margin-top: 100px;
+}
+
+.secondBlock p {
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.secondBlock h2 {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.thirdBlock p {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.thirdBlock h2 {
+  color: white;
+  font-size: 60px;
+}
+
+.firstBlock:hover,
+.secondBlock:hover,
+.thirdBlock:hover {
+  transform: scale(1.01);
+}

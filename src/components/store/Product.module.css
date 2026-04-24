@@ -1,0 +1,95 @@
+.productContainer {
+  margin: 20px 0 30px 0;
+  display: grid;
+  grid-template-columns: 9fr 9fr;
+  gap: 40px;
+}
+
+.productContainer h1 {
+  margin: 10px 0;
+  font-size: 40px;
+}
+
+.productContainer .brand {
+  font-size: 25px;
+  margin-bottom: 340px;
+}
+
+.productContainer .price {
+  font-size: 30px;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.productContainer .description {
+  margin-bottom: 5px;
+  color: black;
+}
+
+.productContainer .rating {
+  color: black;
+  margin-bottom: 60px;
+}
+
+.productContainer .btn {
+  padding: 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 16px;
+  background-color: black;
+  color: white;
+}
+
+.productContainer img {
+  height: 100%;
+  width: 100%;
+}
+
+.productContainer .btn:hover {
+  background-color: rgb(63, 63, 63);
+}
+
+.addProduct {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.addProduct .btn {
+  width: 100%;
+}
+
+.add {
+  display: flex;
+  align-items: center;
+  background-color: rgb(225, 225, 225);
+  gap: 15px;
+  justify-content: center;
+  border-radius: 3px;
+}
+
+.calc {
+  font-size: 17px;
+  border: none;
+  background-color: rgb(225, 225, 225);
+  padding: 0 20px;
+  height: 100%;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.calc:hover {
+  background-color: rgb(137, 137, 137);
+}
+
+.add p {
+  font-size: 30px;
+  color: black;
+}

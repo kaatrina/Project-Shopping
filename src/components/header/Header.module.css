@@ -1,0 +1,24 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0px;
+}
+
+.header h2 {
+  font-size: 60px;
+  cursor: pointer;
+}
+
+.header h3:hover {
+  color: #676767;
+}
+
+.header h3 {
+  cursor: pointer;
+  color: #000000;
+}
+
+.navLink {
+  text-decoration: none;
+}
